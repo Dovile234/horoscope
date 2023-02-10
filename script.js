@@ -9,7 +9,7 @@ btn.addEventListener("click", (event) => {
   let signsSelectValue = signsSelect.value;
   let daySelectValue = daySelect.value;
   fetch(
-    `https://sandipbgt.com/theastrologer/api/horoscope/${signsSelectValue}/${daySelectValue}/`
+    `http://sandipbgt.com/theastrologer/api/horoscope/${signsSelectValue}/${daySelectValue}`
   )
     .then((response) => response.json())
     .then((data) => {
