@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Horoscope</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>GET YOU DAILY HOROSCOPE!</h1>
+    <div class="wrapper">
+      <div class="image-wrapper">
+        <img
+          src="./vecteezy_astrology-zodiac-symbol_-PhotoRoom.png-PhotoRoom.png"
+          alt="horoscopes"
+        />
+      </div>
+      <div class="text-box">
+        <div class="form-wrapper">
+          <form id="form">
+            <select name="signs" id="signs">
+              <option value="aries">Aries</option>
+              <option value="taurus">Taurus</option>
+              <option value="gemini">Gemini</option>
+              <option value="cancer">Cancer</option>
+              <option value="leo">Leo</option>
+              <option value="virgo">Virgo</option>
+              <option value="libra">Libra</option>
+              <option value="scorpio">Scorpio</option>
+              <option value="sagittarius">Sagittarius</option>
+              <option value="capricorn">Capricorn</option>
+              <option value="aquarius ">Aquarius</option>
+              <option value="pisces">Pisces</option>
+            </select>
+            <select name="day" id="day">
+              <option value="today">Today</option>
+              <option value="yesterday">Yesterday</option>
+              <option value="tomorrow">Tomorrow</option>
+            </select>
+          </form>
+          <button id="submit">
+            <img src="/success-61.svg" alt="submit" />
+          </button>
+        </div>
+        <div class="line"></div>
+        <div class="text-wrapper"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
