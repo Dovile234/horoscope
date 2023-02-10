@@ -5,15 +5,24 @@
 }
 
 body {
-  background-color: rgb(247, 247, 247);
+  background-color: #f9fafc;
   margin: 0;
   font-family: "Roboto", sans-serif;
   color: #6f6e6f;
+}
+
+.background-image {
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+  transform: rotate(180deg);
+  top: -480px;
 }
 h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  color: white;
 }
 
 .wrapper {
